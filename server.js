@@ -510,7 +510,7 @@ app.put('/name/:name/grade',function(req,res) {
     });
 });
 
-//update the address by name []
+//update the address by name [OK]
 app.put('/name/:name/address',function(req,res) {
 	//console.log(req.body);
 	mongoose.connect(mongodbURL);
